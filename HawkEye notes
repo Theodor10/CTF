@@ -1,0 +1,26 @@
+go -> last packet can also see first or go to a specific
+view ->change time format -> view time utc
+scazi timpu de la last capture - timpu de la first
+statistics->endpoints->macul cu cele 4003 packte
+statistics->endpoints->aplly macul cu 4003 ca filtru->uitate la ethernet->soruce
+cauta head quarteru la source -ul gasit inainte
+endpoints->ipv4 alea cu 10. dar fara ultima ca e de broadcast (also itit arata ca e de boadcast daca dai edit preferrences->name resolution
+pe a packets la connection
+pe a packets la dns server
+am cautat pachetu 204
+pe apackets la connections
+apackets in acelasi loc
+aici trebuie sa ne uitam la http si vedem ca victima (10.4.10.132) a facut un request la organizatie (proforma),in reqestu de get la User-agnt vedem mai multe softuri folosite de victima printre care si Windows nt 6.1)
+tot la get,sus avem resursa descarcata
+mergem la file->export oject->export http (frumos ar fi sa fim pe linux cand facem asta0) fisierul il incarcam pe virus total si o sa vedem raspunsurile pt intrebarea asta si pt urmatoarea
+pe virus total la details (nu am in fata dar oricum e una din doua)
+in getu de la 13 vedem si server name
+ne uitam la http req facut de vitcima catre bot.whats my ip address
+m am uitat pe connection pe harta si am vaxut ca s doar 2 tari
+whois macwinlogistics
+dam filltru smtp-> follow tcp stream pachet de la victima catre macwinlogisitcs-> sus de tot apare server name
+ne uitam la from
+ne uitam la linia cu rosu (urmatoarea de dupa AUTH login ...)->luam informatia si o bagam intr un decoder de base 64
+luam corpul mailului si dam decode64 -> Reborn v9
+tot aici,sub url : bank of america  vedem user name si parola
+trebe bagat queri u asta : smtp.req.command == "EHLO"si ne uitam la time sa vedem cat de des se exfiltreaza date
